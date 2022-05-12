@@ -1,0 +1,78 @@
+<!-- You can write ! and hit enter, and it will make your HTML skeleton for you-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> Employees Reimbursement </title>
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="assets/images/fav.png">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style1.css">
+    </head>
+
+  
+    <!--A div with a class of "container" makes it so that bootstrap will be applied to this div-->
+    <!-- Everything within this div will get styled with the appropriate bootstrap styling-->
+    <body>
+        <div class="container-fluid bg-login">
+             <div class="container">
+             <br>
+             <br>
+             <h1 class="text-white  h1">Employee Record </h1>
+             <br>
+             <br>
+             <!-- With our CLI in P0, we were able to populate our DB data in the Java console -->
+             <!-- But now, we have a webpage and we need a way to store the data we gather -->
+             <!-- I want a table of employee information which we'll SELECT from the DB -->
+       
+            <div id="table-row" class="row">
+                <table id="Reimbursement" class="table table-striped table-hover table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-white h5"> User ID</th>
+                            <th class="text-white h5"> First Name</th>
+                            <th class="text-white h5"> Last Name</th>
+                            <th class="text-white h5"> Role </th>
+                            <th class="text-white h5"> Status Request </th>
+                                     <tr>
+                                      <td > 4 </td>
+                                      <td> Samuel </td>
+                                      <td> Gomez</td>
+                                      <td> Cashier </td>
+                                      <td> 1 </td>
+                        </tr>
+                        <tr>
+                            <td > 4 </td>
+                            <td> Samuel </td>
+                            <td> Gomez</td>
+                            <td> Cashier </td>
+                            <td> 4 </td>
+                    </thead>
+    
+                 <tbody id="employeeBody">
+                    <!-- We'll leave the table body blank - it will be filled with data by our JS-->
+                 </tbody>
+
+                </table>
+             </div>
+                 <!-- <br>
+                  <button id="getUsersButton" class="btn btn-outline-light text-white">Shows Users </button> -->
+                  <br>
+                  <br>
+                  <span class="loginlogoutlink">
+                    <a title="Log Out" class="loginlogoutlink-logout btn btn-outline-light text-white" href="submitrequest.html">Submit Request</a>
+                  <br>
+                  <br>
+                  <!-- <button id="getLogOutButton" class="btn btn-outline-light text-white">Log out</button> -->
+                   <span class="loginlogoutlink">
+                    <a title="Log Out" class="loginlogoutlink-logout btn btn-outline-light text-white" href="employeereimbursementsystem.html">Log Out</a>
+                 </span>
+                
+            </div>
+        </div>
+    <!-- We need to link a JS file to this HTML file to give it functionality -->
+    <script src="employee.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,64 @@
+
+<!-- You can write ! and hit enter, and it will make your HTML skeleton for you-->
+<!doctype html>
+<html lang="en">
+
+<!-- Here, I added bootstrap STYLE with CSS-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title> Employee Reimbursement System </title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<!--A div with a class of "container" makes it so that bootstrap will be applied to this div-->
+<!-- Everything within this div will get styled with the appropriate bootstrap styling-->
+<body>
+    <div class="container-fluid bg-login">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-12 login-card">
+                    <div class="row">
+                        <div class="col-md-5 detail-part">
+                            <h1> Welcome </h1>
+                            <p> Please use your Credentials to Login Form. </p>
+                        </div>
+                        <div class="col-md-7 logn-part">
+                          <div class="row">
+                              <div class="col-lg-10 col-md-12 mx-auto">
+                                  <div class="logo-cover">
+                                       <img src="assets/images/logo.png" alt="">
+                                   </div>
+                                    <div class="form-cover">
+                                        <h6 id="loginRow">Login Here</h6>
+                                         <input  id= "username" placeholder="Enter Username" type="text" class="form-control">
+                                         <input id="password" Placeholder="Enter Password" type="password" class="form-control">
+                                         <div class="row form-footer">
+                                             <div class="col-md-6 forget-paswd">
+                                                 <a href="">You Almost There</a>    
+                                             </div>
+                                             <div class="col-md-6 button-div">
+                                                 <button id= "loginButton" class="btn btn-primary">Login</button>
+                                             </div>
+                                         </div>
+                                    </div>
+                              </div>
+                          </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+  <!-- We need to link a JS file to this HTML file to give it functionality -->
+  <script src="employeereimbursementsystem.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+
+</html>

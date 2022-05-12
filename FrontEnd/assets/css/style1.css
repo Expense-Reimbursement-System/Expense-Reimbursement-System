@@ -1,0 +1,18 @@
+.bg-login{
+    background-image: url(../images/bg-employee.jpeg);
+    min-height: 100%;
+    background-size: 100%;
+    padding: 20px;
+}
+
+html,body{
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', font-regular;
+    
+}
+strong{
+	font-family: 'Ubuntu', sans-serif;
+}
+
